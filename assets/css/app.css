@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #2d2d2d;
+    overflow-x: hidden;
+    background: url('../../assets/img/bg.png') no-repeat center fixed;
+}
+body h1, h2 {
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.4;
+    color: #222222;
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+header {
+    background: #FFF;
+    margin-top: 5%;
+    box-shadow: 0 1px 2px #292a30;
+    margin-bottom: 3%;
+}
+
+header .top-head {
+    padding: 30px 0;
+}
+
+header .top-head .logo {
+    float: left;
+}
+
+main.home {
+    background: #fff;
+    border-radius: 4px;
+    padding: 2rem;
+}
+span.vs {
+    color: #999999;
+    font-size: 1rem;
+    margin: 0 0.9375rem;
+}
+.events article {
+    padding: 25px 20px;
+    background: #efefef;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.events h1 {
+    font-size: 1.5rem;
+}
+
+article .date-match {
+    font-family: 'Fjalla One', sans-serif;
+}
+article .date-match time {
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+article .match h2.title-match {
+    display: inline-block;
+    font-size: 1.125rem;
+}
+article .match-result {
+    float: right;
+}
+
+article .match-result p {
+    line-height: 0;
+    color: #666;
+    margin: 0;
+}
+article .match-result span {
+    font-size: 2.25rem;
+}
+
+article.result-0 {}
+article.result-1 {
+    border-left: 3px solid red;
+}
+article.result-2 {
+    border-left: 3px solid green;
+}
+
+article:hover {
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px #e5e5e5;
+}
+
+article:hover .match .title-match {
+    color: #e95842 !important;
+}
+
+article ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+article .match ul {
+    line-height: 0;
+}
+article ul li {
+    color: #666;
+}
+.box {
+    margin-bottom: 20px;
+}
+.box .box-title {
+    border-bottom: 1px solid #dbdbdb;
+}
+.box h2 {
+    font-size: 1.5rem;
+}
+.bg-dark {
+    background-color: #212121 !important;
+}
+table .btn-more {
+    display: inline-block;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.barra {
+    position: relative;
+    border-bottom: 4px solid #039BE5;
+}
+.page-title h1 {
+    color: #212121;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.page-info a {
+    padding: 0;
+    border: none;
+    margin: 0;
+    display: inline-block;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: bold;
+    color: #2F2F2F;
+    cursor: pointer;
+    letter-spacing: .03em;
+    transition: color 0.3s ease-out;
+    text-decoration: none;
+}
+.btn.btn-more {
+    color: #444;
+    background-color: #e2e2e2;
+    border-color: #d2d2d2;
+}
+.btn.btn-more:hover {
+    color: #444;
+    background-color: #c9c9c9;
+    border-color: #b3b3b3;
+}
+.social-share {
+  padding-right: 0.5rem;
+}
+.social-share a {
+  text-decoration: none;
+}
+.ic {
+  display: inline-block;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 10%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Font Awesome 5 Brands";
+}
+.ic.twitter:before {
+  content: "\f099";
+}
+.ic.facebook:before {
+  content: "\f39e";
+}
+.ic.instagram:before {
+  content: "\f16d";
+}
+.ic.telegram:before {
+  content: "\f3fe";
+}
+.anim-twitter:hover {
+  -webkit-animation: twitterAnim 0.4s normal forwards linear;
+}
+.anim-facebook:hover {
+  -webkit-animation: facebookAnim 0.4s normal forwards linear;
+}
+.anim-youtube:hover {
+  -webkit-animation: youtubeAnim 0.4s normal forwards linear;
+}
+.anim-instagram:hover {
+  -webkit-animation: instagramAnim 0.4s normal forwards linear;
+}
+@-webkit-keyframes twitterAnim {
+  100% {
+    background: rgba(0, 150, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
+@-webkit-keyframes facebookAnim {
+  100% {
+    background: rgba(72, 96, 163, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
+@-webkit-keyframes youtubeAnim {
+  100% {
+    background: #cc181e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
+@-webkit-keyframes instagramAnim {
+  100% {
+    background: rgba(38, 38, 38, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
